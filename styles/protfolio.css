@@ -1,3 +1,34 @@
+*{
+    margin: 0;
+    font-family: 'inter',sans-serif;
+    font-family: 'Merriweather', serif;
+   
+}
+.header{
+    background-image: url('../images/baner.jpg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 90px;
+    padding: 2%;
+    height: 600px;
+    width: 1320px;
+    border-radius: 16px;
+    font-family:'Merriweather',serif;
+
+}
+.banner-titel{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
 .new{
     color: rgb(21, 71, 206);
 }
@@ -30,4 +61,8 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+/* nav related style */
+.nav{
+    color:#F00 ;
 }
